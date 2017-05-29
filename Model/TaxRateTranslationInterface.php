@@ -13,8 +13,9 @@
 namespace CoreShop\Component\Taxation\Model;
 
 use CoreShop\Component\Resource\Model\ResourceInterface;
+use CoreShop\Component\Resource\Model\TimestampableInterface;
 
-interface TaxRateTranslationInterface extends ResourceInterface
+interface TaxRateTranslationInterface extends ResourceInterface, TimestampableInterface
 {
     /**
      * @return string
